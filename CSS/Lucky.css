@@ -1,0 +1,36 @@
+body{
+           
+               font-family:cooperblack,elephant;
+              background-color:#12abd45;
+   }
+header{
+                    width:90%;
+                      background-color:#12cbd46;
+                      color:blue;
+                      marign-left:auto;
+                      marign-right:auto;
+                      text-align:center;
+                      padding :10px;
+
+}
+  Section{
+                   width:90%;
+                    background-color white;
+                      color:red;
+                      marign-left:auto;
+                      marign-right:auto;
+                      border-width:5px;
+                      border-style:solid;
+                      border-color:#12cbd46;
+                      padding :10px;
+}
+   footer{
+                 width:90%;
+                  background-color:#12cbd46;
+                  color:white;
+                   marign-left:auto;
+                   marign-right:auto;
+                   padding :10px;
+}  
+
+   

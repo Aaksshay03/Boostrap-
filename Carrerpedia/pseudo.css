@@ -1,0 +1,19 @@
+
+
+ /* Header Tags (h1 to h6) */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: #ff0000; /* Change to your desired color */
+  }
+  
+  /* Paragraph Tag */
+  p:hover {
+    color: #00ff00; /* Change to your desired color */
+  }
+  
+  /* Button Tag */
+  button:hover {
+    color: #0000ff; /* Change to your desired color */
+    background-color: #ffff00; /* Change to your desired background color */
+    border: 1px solid #0000ff; /* Change to your desired border color */
+  }
+  

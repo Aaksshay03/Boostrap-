@@ -1,0 +1,29 @@
+
+
+.parent{
+    position: relative;
+    width:100%;
+    height:100px;
+    background-color: brown;
+    top:0;
+}
+ box1{
+    width:100%;
+    height:100px;
+    background-color: blue;
+    position: absolute;
+ }
+
+
+.box2{
+    width:100%;
+    height:100px;
+    background-color: red;
+    position: static;
+}
+.box3{
+    width:100%;
+    height:100px;
+    background-color: violet;
+    position: absolute;
+}

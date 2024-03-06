@@ -1,0 +1,24 @@
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    transition: all 1s ease-in 1s;
+}
+.box:hover{
+    background-color: red;
+    width:300px;
+    transform: rotate(45deg);
+}
+h1{
+    font-size: 30px;
+    transition: all 1s ease-in-out;
+}
+h1:hover{
+    color: blue;
+    font-size: 150px;
+
+}
+
+

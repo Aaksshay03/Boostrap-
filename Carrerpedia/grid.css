@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    gap: 5px;
+    grid-template-areas: "v1 v1 v1 v1"
+                         "v2 v3 v3 v5"
+                         "v2 v4 v4 v5"
+                         "v6 v6 v6 v6"
+
+
+}
+/* .box{
+    padding: 10px;
+} */
+
+/* .box:nth-child(even){
+    background-color: red;
+}
+
+.box:nth-child(odd){
+    background-color: blue;
+} */
+
+.box1{
+    width: 100%;
+grid-area: v1;
+background-color: blue;
+}
+.box2{
+    width: 100%;
+    grid-area: v2;
+    background-color: red;
+}
+.box3{
+    width: 100%;
+    grid-area: v3;
+    background-color: gold;
+}
+.box4{
+    width: 100%;
+     grid-area: v4;
+     background-color: silver;
+}
+.box5{
+    width: 100%;
+    grid-area: v5;
+    background-color: orangered;
+}
+.box6{
+    width: 100%;
+    grid-area: v6;
+    background-color: brown;
+}
+
+
+
+     
+
+
